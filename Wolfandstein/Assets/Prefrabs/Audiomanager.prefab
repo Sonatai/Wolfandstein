@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4626314288804901346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 210669785063300288}
+  - component: {fileID: 8698044308455624547}
+  m_Layer: 0
+  m_Name: Audiomanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &210669785063300288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4626314288804901346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.73, y: 3.9393997, z: 6.199989}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8698044308455624547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4626314288804901346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d903e7b1bebb22438054f32ca293378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: bow
+    clip: {fileID: 8300000, guid: dbb8f79e31dd0d14e98623edb1e05181, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Background
+    clip: {fileID: 8300000, guid: db08aab0a1b0bf9459378d385b42f1b3, type: 3}
+    volume: 0.09
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: "lattice_schlie\xDFen"
+    clip: {fileID: 8300000, guid: 1deb89d3baf876142b8adf69e63e3d9a, type: 3}
+    volume: 0.684
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: "t\xFCr_schlie\xDFen"
+    clip: {fileID: 8300000, guid: 091a29eadd9d2e84fa415b799a40d971, type: 3}
+    volume: 0.684
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: "t\xFCr_\xF6ffnen"
+    clip: {fileID: 8300000, guid: 5eb7b07c12b051f4c811897381d33130, type: 3}
+    volume: 0.684
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: b8739c02c59b3ef41b650cb681066bb0, type: 3}
+    volume: 0.684
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Land
+    clip: {fileID: 8300000, guid: d5a16fe8576b73548b958772a6dd113c, type: 3}
+    volume: 0.684
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: pickupBook
+    clip: {fileID: 8300000, guid: 689bfc0de4df8c742a81d0836f46a4db, type: 3}
+    volume: 0.684
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: putAwayBook
+    clip: {fileID: 8300000, guid: 962ce33105392624ea6c7b5713d14ea6, type: 3}
+    volume: 0.684
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ICant
+    clip: {fileID: 8300000, guid: 4fdf1fe52da5c4240a2af870fb10535d, type: 3}
+    volume: 0.684
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FindWeapon
+    clip: {fileID: 8300000, guid: c572286b8eedb0f4880450141b351c0e, type: 3}
+    volume: 0.684
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
